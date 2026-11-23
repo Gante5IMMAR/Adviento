@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diario de Adviento 2026</title>
+<meta name="description" content="Diario de Adviento, Navidad y Epifanía 2026. Del 29 de noviembre de 2026 al 3 de enero de 2027: tema, texto bíblico, pensamiento, reflexión y canto para cada día.">
+<meta name="theme-color" content="#faf7f1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='24' y='28' width='16' height='28' rx='3' fill='%23c9363b'/%3E%3Cpath d='M32 6c8 9 10 14 6 19-2 3-10 3-12 0-4-5-2-10 6-19z' fill='%23e8a317'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#faf7f1; --surface:#fffdf9; --ink:#2a2622; --muted:#675f53; --line:#e7dfd0;
+  --on-accent:#fff; --shadow:0 1px 2px rgba(60,40,10,.06),0 8px 24px rgba(60,40,10,.06);
+  color-scheme:light dark;
+  --serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --sans:'Source Sans 3',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+body{--accent:#2f6b3a;--tint:#e6f1e4;--deco:#3f8f4f}
+body[data-week="2"]{--accent:#5b3a8c;--tint:#ece6f5;--deco:#7a4fb8}
+body[data-week="3"]{--accent:#8a6400;--tint:#fbf1cf;--deco:#e8b923}
+body[data-week="4"]{--accent:#a3262a;--tint:#f8e3e1;--deco:#c9363b}
+body[data-week="5"]{--accent:#566070;--tint:#f0ede6;--deco:#bdb7a8}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#15130f;--surface:#1d1a15;--ink:#efe8db;--muted:#b3aa9a;--line:#332e25;--on-accent:#14110d;--shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.3)}
+  body{--accent:#8fd19a;--tint:#1c2a1f;--deco:#4fa461}
+  body[data-week="2"]{--accent:#c8aef2;--tint:#251d38;--deco:#8f64d0}
+  body[data-week="3"]{--accent:#f0c84a;--tint:#332b10;--deco:#e8b923}
+  body[data-week="4"]{--accent:#f39a9a;--tint:#3a1c1d;--deco:#d4474c}
+  body[data-week="5"]{--accent:#d9dde5;--tint:#26272b;--deco:#e9e4d6}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.65 var(--sans);transition:background .4s}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+.wide{max-width:1040px;margin:0 auto;padding:0 16px}
+
+/* ---------- Hero ---------- */
+.hero{background:linear-gradient(180deg,var(--tint) 0%,var(--bg) 100%);padding:28px 0 8px;text-align:center;transition:background .4s}
+.kicker{font:600 13px/1 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+.hero h1{font:600 clamp(30px,7vw,46px)/1.1 var(--serif);margin:0 0 8px;letter-spacing:-.01em}
+.hero .dates{color:var(--muted);margin:0 0 18px;font-size:17px}
+.candles{display:block;margin:0 auto;max-width:360px;width:100%;height:auto}
+.candles .lbl{font:600 11px var(--sans);fill:var(--muted);text-anchor:middle}
+.candles .lbl.on{fill:var(--accent)}
+.flame{transform-box:fill-box;transform-origin:50% 100%;animation:flick 2.4s ease-in-out infinite}
+.flame.b{animation-delay:-.8s}.flame.c{animation-delay:-1.5s}
+@keyframes flick{0%,100%{transform:scale(1) rotate(-1deg)}50%{transform:scale(1.07,1.12) rotate(1.5deg)}}
+@media (prefers-reduced-motion:reduce){.flame{animation:none}}
+.topnav{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:14px 0 18px}
+.topnav a{font:600 15px var(--sans);text-decoration:none;color:var(--ink);padding:10px 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);min-height:44px;display:inline-flex;align-items:center}
+.topnav a:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ---------- Entry ---------- */
+.banner{margin:18px 0 0;padding:14px 18px;border-radius:14px;background:var(--tint);border:1px solid var(--line);font-size:17px}
+.banner strong{color:var(--accent)}
+article.entry{background:var(--surface);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);margin:18px 0 28px;overflow:hidden}
+.entry-head{padding:26px 22px 20px;border-bottom:1px solid var(--line);border-top:6px solid var(--deco)}
+.meta{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:0 0 14px;font-size:15px;color:var(--muted)}
+.chip{display:inline-flex;align-items:center;gap:8px;background:var(--tint);color:var(--accent);font:600 14px var(--sans);padding:6px 12px;border-radius:999px}
+.chip i{width:10px;height:10px;border-radius:50%;background:var(--deco);display:inline-block;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.today-pill{background:var(--accent);color:var(--on-accent);font:600 13px var(--sans);padding:5px 11px;border-radius:999px}
+.entry h2{font:600 clamp(28px,6vw,38px)/1.15 var(--serif);margin:0;letter-spacing:-.01em}
+.daydate{font:500 18px var(--serif);color:var(--muted);margin:6px 0 0}
+.block{padding:22px 22px 4px}
+.block:last-of-type{padding-bottom:22px}
+.label{font:600 12.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 10px;display:flex;align-items:center;gap:10px}
+.label::after{content:"";height:1px;background:var(--line);flex:1}
+.verse{margin:0;font:400 20px/1.7 var(--serif);white-space:pre-line}
+.verse sup{font:600 11px var(--sans);color:var(--accent);margin:0 3px 0 0;vertical-align:super}
+.cite{display:block;margin-top:10px;font:600 16px var(--sans);color:var(--muted);font-style:normal}
+.cite span{font-weight:400}
+.orante{display:flex;gap:12px;align-items:center;margin:0;padding:0}
+.orante .ic{width:40px;height:40px;border-radius:50%;background:var(--tint);color:var(--accent);display:grid;place-items:center;flex:none}
+.orante small{display:block;color:var(--muted);font-size:14px;line-height:1.2}
+.orante b{font-weight:600;font-size:19px}
+.thought{margin:0;padding:20px 20px 20px 22px;border-left:5px solid var(--deco);background:var(--tint);border-radius:0 16px 16px 0;font:italic 400 clamp(20px,4.4vw,24px)/1.5 var(--serif)}
+.q{margin:0 0 16px}
+.q label{display:block;font:600 18px/1.4 var(--sans);margin-bottom:8px}
+.q label span{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--accent);color:var(--on-accent);font-size:14px;margin-right:8px;vertical-align:1px}
+textarea{width:100%;min-height:96px;resize:vertical;font:400 17px/1.5 var(--sans);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+textarea:focus{outline:3px solid var(--accent);outline-offset:1px;border-color:transparent}
+.note{font-size:14.5px;color:var(--muted);margin:0 0 6px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.saved{color:var(--accent);font-weight:600;min-height:1.2em}
+.song{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.song h3{font:600 21px/1.25 var(--serif);margin:0;flex:1 1 220px}
+.btn{font:600 16px var(--sans);display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 20px;border-radius:999px;border:1.5px solid var(--accent);background:var(--accent);color:var(--on-accent);cursor:pointer;text-decoration:none}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn:hover{filter:brightness(1.07)}
+.player{margin-top:14px;aspect-ratio:16/9;width:100%;border:0;border-radius:14px;background:#000}
+.entry-foot{display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap;padding:18px 22px 22px;border-top:1px solid var(--line);margin-top:18px}
+.entry-foot .grp{display:flex;gap:10px;flex-wrap:wrap}
+
+/* ---------- Sections ---------- */
+section.sec{padding:34px 0}
+.sec h2.title{font:600 clamp(26px,5.5vw,34px)/1.15 var(--serif);margin:0 0 6px}
+.sec .lede{color:var(--muted);margin:0 0 22px}
+.weeks{display:grid;gap:26px}
+.week-h{display:flex;gap:12px;align-items:center;margin:0 0 4px;flex-wrap:wrap}
+.week-h .dot{width:16px;height:16px;border-radius:50%;box-shadow:0 0 0 1px rgba(0,0,0,.18);flex:none}
+.week-h h3{font:600 21px var(--serif);margin:0}
+.week-h p{margin:0;color:var(--muted);font-size:15.5px;flex-basis:100%;max-width:60ch}
+.cards{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));margin-top:12px}
+.card{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px 16px;position:relative;transition:transform .15s,border-color .15s}
+.card:hover{transform:translateY(-2px);border-color:var(--accent)}
+.card .d{font:600 13px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.card .t{font:600 18px/1.25 var(--serif);margin:4px 0 6px}
+.card .c{font-size:15px;color:var(--muted)}
+.card.now{border:2px solid var(--accent);background:var(--tint)}
+.card.now .d{color:var(--accent)}
+.card.sel{outline:3px solid var(--accent);outline-offset:2px}
+.card.done .d::after{content:" ✓";color:var(--accent)}
+.card.done{opacity:.86}
+.how{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:26px 22px;box-shadow:var(--shadow)}
+.how blockquote{margin:16px 0;padding:0 0 0 16px;border-left:4px solid var(--deco);font:italic 400 20px/1.55 var(--serif)}
+.how blockquote cite{display:block;margin-top:6px;font:600 15px var(--sans);font-style:normal;color:var(--muted)}
+.how h3{font:600 12.5px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:26px 0 10px}
+.mats{display:flex;gap:10px;flex-wrap:wrap;list-style:none;padding:0;margin:0 0 14px}
+.mats li{background:var(--tint);color:var(--accent);font-weight:600;padding:8px 16px;border-radius:999px}
+.steps{margin:0;padding:0;list-style:none;counter-reset:s}
+.steps li{counter-increment:s;display:flex;gap:12px;align-items:flex-start;padding:7px 0}
+.steps li::before{content:counter(s);flex:none;width:28px;height:28px;border-radius:50%;background:var(--accent);color:var(--on-accent);font:600 14px/28px var(--sans);text-align:center;margin-top:1px}
+.colors{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.colors li{display:flex;gap:12px;align-items:flex-start}
+.colors .dot{width:18px;height:18px;border-radius:50%;flex:none;margin-top:5px;box-shadow:0 0 0 1px rgba(0,0,0,.2)}
+footer{border-top:1px solid var(--line);padding:30px 0 56px;text-align:center;color:var(--muted);font-size:16px}
+footer p{margin:0 0 6px}
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,30px);background:var(--ink);color:var(--bg);padding:12px 20px;border-radius:999px;font:600 15px var(--sans);opacity:0;pointer-events:none;transition:.25s;z-index:20}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:520px){body{font-size:17.5px}.block{padding:20px 16px 4px}.entry-head{padding:22px 16px 18px}.entry-foot{padding:16px}.verse{font-size:19px}.how{padding:22px 16px}.btn{flex:1 1 auto}}
+@media print{.hero .candles,.topnav,.entry-foot,#calendario,.player{display:none}body{background:#fff;color:#000}}
+</style>
+</head>
+<body data-week="1">
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Adviento · Navidad · Epifanía</p>
+    <h1>Diario de Adviento 2026</h1>
+    <p class="dates">Del 29 de noviembre de 2026 al 3 de enero de 2027</p>
+    <svg id="candles" class="candles" viewBox="0 0 360 150" role="img" aria-label="Corona de Adviento"></svg>
+    <nav class="topnav" aria-label="Navegación principal">
+      <a href="#hoy" id="goToday">Hoy</a>
+      <a href="#calendario" data-scroll="calendario">Todos los días</a>
+      <a href="#como-usar" data-scroll="como-usar">Cómo usar el diario</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap" id="entry-root" aria-live="polite"></div>
+
+  <div class="wide">
+    <section class="sec" id="calendario" aria-labelledby="cal-h">
+      <h2 class="title" id="cal-h">Todos los días</h2>
+      <p class="lede">36 días de oración, lectura y reflexión. Toca cualquier día para leerlo.</p>
+      <div class="weeks" id="weeks"></div>
+    </section>
+  </div>
+
+  <div class="wrap">
+    <section class="sec" id="como-usar" aria-labelledby="how-h">
+      <div class="how">
+        <h2 class="title" id="how-h">Cómo usar el diario</h2>
+        <p>Durante el tiempo de Adviento, Navidad y Epifanía nos uniremos en oración, adoración y reflexión. Por medio de los temas y cantos de esta temporada nos vamos a ir preparando para dar la bienvenida a nuestro Salvador. La historia bíblica nos recuerda que cuando Jesús nació, no había un lugar para ÉL. Durante esta jornada buscaremos la manera de que estas celebraciones decembrinas cobren un nuevo significado para nuestra comunidad de fe.</p>
+        <blockquote>“…que os ha nacido hoy, en la ciudad de David, un Salvador, que es CRISTO el Señor.”<cite>Lucas 2.11 · Reina-Valera 1960</cite></blockquote>
+        <p>La invitación para nosotros y nosotras hoy es a renovar nuestro compromiso para dar a conocer la Buena Noticia.</p>
+
+        <h3>Para los hermanos: material</h3>
+        <ul class="mats"><li>Cuaderno / libreta</li><li>Lápiz</li><li>Biblia</li></ul>
+        <p>Cada uno y cada una irá armando su propio <b>Diario Personal de Adviento, Navidad y Epifanía</b>: nos uniremos a la oración, escucharemos, y nos haremos dos preguntas cuya respuesta escribiremos en el diario.</p>
+
+        <h3>Para quien dirige la oración</h3>
+        <ol class="steps">
+          <li>Leer la semana de Adviento y el significado del color de la vela.</li>
+          <li>Leer el tema.</li>
+          <li>Leer el texto bíblico con su cita.</li>
+          <li>Orar.</li>
+          <li>Leer el pensamiento para hoy.</li>
+          <li>Invitar a reflexionar con las dos preguntas.</li>
+          <li>Escuchar el canto.</li>
+        </ol>
+
+        <h3>Los colores del tiempo</h3>
+        <ul class="colors" id="colors"></ul>
+
+        <h3>Mi diario en esta página</h3>
+        <p>Si lo prefieres, puedes escribir tus respuestas directamente en cada día. Se guardan <b>solo en este dispositivo</b> (nadie más las ve). Puedes descargarlas cuando quieras.</p>
+        <p><button class="btn ghost" id="export" type="button">Descargar mis notas (.txt)</button></p>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Diario de Adviento, Navidad y Epifanía 2026</p>
+    <p>Que esta Buena Noticia llegue a toda nuestra comunidad de fe.</p>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const DATA = [{"n":1,"date":"2026-11-29","week":1,"label":"DOMINGO 29 NOVIEMBRE","tema":"¡Despierten!","cita":"Romanos 13.11","orante":"Pastora Edith Molina","canto":"Despierta, tú que duermes","video":"2B9x8InUa5w","pensamiento":"La esperanza es como hierba verde que rompe el concreto. Velar es no dejar que la apatía te seque.","versos":[{"v":11,"t":"Y esto, conociendo el tiempo, que es ya hora de levantarnos del sueño; porque ahora está más cerca de nosotros nuestra salvación que cuando creímos."}]},{"n":2,"date":"2026-11-30","week":1,"label":"LUNES 30 NOVIEMBRE","tema":"El portero que vela","cita":"Marcos 13.33-37","orante":"Pastor Armando Pérez","canto":"Oh ven, oh ven, Rey Emanuel","video":"kMlL0fVwqFw","pensamiento":"La esperanza nos recuerda: tu corazón sigue vivo, Dios lo cuida.","versos":[{"v":33,"t":"Mirad, velad y orad; porque no sabéis cuándo será el tiempo."},{"v":34,"t":"Es como el hombre que, yéndose lejos, dejó su casa, y dio autoridad a sus siervos, y a cada uno su obra, y al portero mandó que velase."},{"v":35,"t":"Velad, pues, porque no sabéis cuándo vendrá el señor de la casa; si al anochecer, o a la medianoche, o al canto del gallo, o a la mañana;"},{"v":36,"t":"para que cuando venga de repente, no os halle durmiendo."},{"v":37,"t":"Y lo que a vosotros digo, a todos lo digo: Velad."}]},{"n":3,"date":"2026-12-01","week":1,"label":"MARTES 1 DICIEMBRE","tema":"El Pueblo que caminaba en tinieblas","cita":"Isaías 9.2","orante":"Pastora Leticia Rosete","canto":"El Rey Ya Viene","video":"mesU4kJLb78","pensamiento":"En medio de nuestras tinieblas de depresión o duda, ya brota un retoño verde: ¡Cristo viene!","versos":[{"v":2,"t":"El pueblo que andaba en tinieblas vio gran luz; los que moraban en tierra de sombra de muerte, luz resplandeció sobre ellos."}]},{"n":4,"date":"2026-12-02","week":1,"label":"MIÉRCOLES 2 DICIEMBRE","tema":"La promesa a David","cita":"2 Samuel 7.12-16","orante":"Hermano/a","canto":"¡Prepárate, un niño viene!","video":"IKdP5FforOY","pensamiento":"Dios prometió que del tronco seco de David brotaría un retoño. Puedes confiar en sus promesas.","versos":[{"v":12,"t":"Y cuando tus días sean cumplidos, y duermas con tus padres, yo levantaré después de ti a uno de tu linaje, el cual procederá de tus entrañas, y afirmaré su reino."},{"v":13,"t":"Él edificará casa a mi nombre, y yo afirmaré para siempre el trono de su reino."},{"v":14,"t":"Yo le seré a él padre, y él me será a mí hijo. Y si él hiciere mal, yo le castigaré con vara de hombres, y con azotes de hijos de hombres;"},{"v":15,"t":"pero mi misericordia no se apartará de él como la aparté de Saúl, al cual quité de delante de ti."},{"v":16,"t":"Y será afirmada tu casa y tu reino para siempre delante de tu rostro, y tu trono será estable eternamente."}]},{"n":5,"date":"2026-12-03","week":1,"label":"JUEVES 3 DICIEMBRE","tema":"¡Maranatha!","cita":"1 Corintios 16.22","orante":"Hermano/a","canto":"Ven, Jesús Muy Esperado","video":"uu-nvi6Hhxw","pensamiento":"Clamar Ven Señor, es regar esa esperanza que mantiene firme nuestra vida.","versos":[{"v":22,"t":"El que no amare al Señor Jesucristo, sea anatema. El Señor viene."}]},{"n":6,"date":"2026-12-04","week":1,"label":"VIERNES 4 DICIEMBRE","tema":"Levanten la cabeza","cita":"Lucas 21.28","orante":"Hermano/a","canto":"Estad Preparados","video":"EqL0r1MJlc8","pensamiento":"No mires al suelo árido y seco, mira el brote nuevo que ya viene. Renovar nuestra esperanza es tarea de todos los días.","versos":[{"v":28,"t":"Cuando estas cosas comiencen a suceder, erguíos y levantad vuestra cabeza, porque vuestra redención está cerca."}]},{"n":7,"date":"2026-12-05","week":1,"label":"SÁBADO 5 DICIEMBRE","tema":"La paciencia del campesino","cita":"Santiago 5.7-8","orante":"Hermano/a","canto":"A Jesús que va a nacer","video":"794xH80Kb5E","pensamiento":"El agricultor espera el fruto. Esperar es cuidar. La espera no es pasiva, la espera nos conduce a la acción.","versos":[{"v":7,"t":"Por tanto, hermanos, tened paciencia hasta la venida del Señor. Mirad cómo el labrador espera el precioso fruto de la tierra, aguardando con paciencia hasta que reciba la lluvia temprana y la tardía."},{"v":8,"t":"Tened también vosotros paciencia, y afirmad vuestros corazones; porque la venida del Señor se acerca."}]},{"n":8,"date":"2026-12-06","week":2,"label":"DOMINGO 6 DICIEMBRE","tema":"Una voz en el desierto","cita":"Marcos 1.7-8","orante":"Pastor Armando Pérez","canto":"Una voz clama en el desierto","video":"oskpavH0NwA","pensamiento":"El color morado, representa la fe que nace en el desierto, cuando no hay nada más a qué aferrarse. La fe nos invita a caminar confiando en las promesas de Dios.","versos":[{"v":7,"t":"Y predicaba, diciendo: Viene tras mí el que es más poderoso que yo, a quien no soy digno de desatar encorvado la correa de su calzado."},{"v":8,"t":"Yo a la verdad os he bautizado con agua; pero él os bautizará con Espíritu Santo."}]},{"n":9,"date":"2026-12-07","week":2,"label":"LUNES 7 DICIEMBRE","tema":"Enderezar lo torcido","cita":"Isaías 40.3-5","orante":"Pastora Leticia Rosete","canto":"Oíd un son en alta esfera","video":"xROcHy4hPr4","pensamiento":"La fe me lleva a creer que Dios puede conducir mi vida por un camino nuevo aun cuando veo sólo desierto.","versos":[{"v":3,"t":"Voz que clama en el desierto: Preparad camino a Jehová; enderezad calzada en la soledad a nuestro Dios."},{"v":4,"t":"Todo valle sea alzado, y bájese todo monte y collado; y lo torcido se enderece, y lo áspero se allane."},{"v":5,"t":"Y se manifestará la gloria de Jehová, y toda carne juntamente la verá; porque la boca de Jehová ha hablado."}]},{"n":10,"date":"2026-12-08","week":2,"label":"MARTES 8 DICIEMBRE","tema":"Frutos de fe","cita":"Mateo 3.8","orante":"Pastora Edith Molina","canto":"A media noche resonó","video":"NqcXEN1kY-k","pensamiento":"Ser hijo e hija de Dios, no es solo decir \"soy cristiano/a\". La fe lleva a nuestra vida a la humildad y al servicio.","versos":[{"v":7,"t":"Al ver él que muchos de los fariseos y de los saduceos venían a su bautismo, les decía: ¡Generación de víboras! ¿Quién os enseñó a huir de la ira venidera?"},{"v":8,"t":"Haced, pues, frutos dignos de arrepentimiento,"},{"v":9,"t":"y no penséis decir dentro de vosotros mismos: A Abraham tenemos por padre; porque yo os digo que Dios puede levantar hijos a Abraham aun de estas piedras."}]},{"n":11,"date":"2026-12-09","week":2,"label":"MIÉRCOLES 9 DICIEMBRE","tema":"La fe abre nuestros labios","cita":"Lucas 1.62-66","orante":"Hermano/a","canto":"Ángeles Cantando Están","video":"x-BgDKsOxa0","pensamiento":"De estar mudos por la duda, nuestros labios se abren cuando confiamos en Dios. Dios nos da una nueva oportunidad para renovar nuestra fe.","versos":[{"v":62,"t":"Entonces preguntaron por señas a su padre, cómo le quería llamar."},{"v":63,"t":"Y pidiendo una tablilla, escribió, diciendo: Juan es su nombre. Y todos se maravillaron."},{"v":64,"t":"Al momento fue abierta su boca y suelta su lengua, y habló bendiciendo a Dios."},{"v":65,"t":"Y se llenaron de temor todos sus vecinos; y en todas las montañas de Judea se divulgaron todas estas cosas."},{"v":66,"t":"Y todos los que las oían las guardaban en su corazón, diciendo: ¿Quién, pues, será este niño? Y la mano del Señor estaba con él."}]},{"n":12,"date":"2026-12-10","week":2,"label":"JUEVES 10 DICIEMBRE","tema":"Creer en la oscuridad","cita":"Mateo 4.16-17","orante":"Hermano/a","canto":"La Primera Navidad","video":"BrShLVt9BSs","pensamiento":"Tener fe no es entender todo, es confiar en quien te sostiene en la noche, y por muy oscura que esta sea, el amanecer de un nuevo día se acerca.","versos":[{"v":16,"t":"El pueblo asentado en tinieblas vio gran luz; Y a los asentados en región de sombra de muerte, Luz les resplandeció."},{"v":17,"t":"Desde entonces comenzó Jesús a predicar, y a decir: Arrepentíos, porque el reino de los cielos se ha acercado."}]},{"n":13,"date":"2026-12-11","week":2,"label":"VIERNES 11 DICIEMBRE","tema":"La fe que derriba muros","cita":"Efesios 2.12-14","orante":"Hermano/a","canto":"¿Qué Niño Es Éste?","video":"VBy1oy4E54M","pensamiento":"Si Cristo pudo derribar el muro que nos separaba de Dios, también puede quitar el muro que nos separa de nuestros hermanos y hermanas.","versos":[{"v":12,"t":"En aquel tiempo estabais sin Cristo, alejados de la ciudadanía de Israel y ajenos a los pactos de la promesa, sin esperanza y sin Dios en el mundo."},{"v":13,"t":"Pero ahora en Cristo Jesús, vosotros que en otro tiempo estabais lejos, habéis sido hechos cercanos por la sangre de Cristo."},{"v":14,"t":"Porque él es nuestra paz, que de ambos pueblos hizo uno, derribando la pared intermedia de separación,"},{"v":15,"t":"aboliendo en su carne las enemistades, la ley de los mandamientos expresados en ordenanzas, para crear en sí mismo de los dos un solo y nuevo hombre, haciendo la paz."}]},{"n":14,"date":"2026-12-12","week":2,"label":"SÁBADO 12 DICIEMBRE","tema":"Bienaventurada la que creyó","cita":"Lucas 1.39-45","orante":"Hermano/a","canto":"Tu Dejaste Tu Trono y Corona por Mí","video":"gVG_2FBFbB4","pensamiento":"Bienaventurada la que creyó, la fe nos lleva a confiar en Dios cuando parece imposible.","versos":[{"v":39,"t":"En aquellos días, levantándose María, fue de prisa a la montaña, a una ciudad de Judá;"},{"v":40,"t":"y entró en casa de Zacarías, y saludó a Elisabet."},{"v":41,"t":"Y aconteció que cuando oyó Elisabet la salutación de María, la criatura saltó en su vientre; y Elisabet fue llena del Espíritu Santo,"},{"v":42,"t":"y exclamó a gran voz, y dijo: Bendita tú entre las mujeres, y bendito el fruto de tu vientre."},{"v":43,"t":"¿Por qué se me concede esto a mí, que la madre de mi Señor venga a mí?"},{"v":44,"t":"Porque tan pronto como llegó la voz de tu salutación a mis oídos, la criatura saltó de alegría en mi vientre."},{"v":45,"t":"Y bienaventurada la que creyó, porque se cumplirá lo que le fue dicho de parte del Señor."}]},{"n":15,"date":"2026-12-13","week":3,"label":"DOMINGO 13 DICIEMBRE","tema":"¡Alégrense! La paz se acerca","cita":"Filipenses 4.4-7","orante":"Pastora Leticia Rosete","canto":"Que la paz que nace en nosotros","video":"9zCDmB-eMok","pensamiento":"La paz Dios no depende de las circunstancias por la cuales estamos atravesando, sino de que él está cerca.","versos":[{"v":4,"t":"Regocijaos en el Señor siempre. Otra vez digo: ¡Regocijaos!"},{"v":5,"t":"Vuestra gentileza sea conocida de todos los hombres. El Señor está cerca."},{"v":6,"t":"Por nada estéis afanosos, sino sean conocidas vuestras peticiones delante de Dios en toda oración y ruego, con acción de gracias."},{"v":7,"t":"Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos en Cristo Jesús."}]},{"n":16,"date":"2026-12-14","week":3,"label":"LUNES 14 DICIEMBRE","tema":"Nuevas de gran gozo","cita":"Lucas 2.8-10","orante":"Pastora Edith Molina","canto":"Oh, Aldehuela de Belén","video":"8w6n8y1q8gM","pensamiento":"La luz que nace en el pesebre de Belén es un mensaje de paz y gozo primero para los olvidados. ¡Tú eres importante para Dios!","versos":[{"v":8,"t":"Había pastores en la misma región, que velaban y guardaban las vigilias de la noche sobre su rebaño."},{"v":9,"t":"Y he aquí, se les presentó un ángel del Señor, y la gloria del Señor los rodeó de resplandor; y tuvieron gran temor."},{"v":10,"t":"Pero el ángel les dijo: No temáis; porque he aquí os doy nuevas de gran gozo, que será para todo el pueblo."}]},{"n":17,"date":"2026-12-15","week":3,"label":"MARTES 15 DICIEMBRE","tema":"La paz que se comparte","cita":"Isaías 58.6-9","orante":"Pastor Armando Pérez","canto":"Al Mundo Paz","video":"muJxxGsJ3ZA","pensamiento":"Sin justicia y misericordia no puede haber paz. Hoy comparte tu pan con los necesitados.","versos":[{"v":6,"t":"¿No es más bien el ayuno que yo escogí, desatar las ligaduras de impiedad, soltar las cargas de opresión, y dejar ir libres a los quebrantados, y que rompáis todo yugo?"},{"v":7,"t":"¿No es que partas tu pan con el hambriento, y a los pobres errantes albergues en casa; que cuando veas al desnudo, lo cubras, ¿y no te escondas de tu hermano?"},{"v":8,"t":"Entonces nacerá tu luz como el alba, y tu salvación se dejará ver pronto; e irá tu justicia delante de ti, y la gloria de Jehová será tu retaguardia."},{"v":9,"t":"Entonces invocarás, y te oirá Jehová; clamarás, y dirá él: Heme aquí. Si quitares de en medio de ti el yugo, el dedo amenazador, y el hablar vanidad;"}]},{"n":18,"date":"2026-12-16","week":3,"label":"MIÉRCOLES 16 DICIEMBRE","tema":"La paz de José","cita":"Mateo 1.19-20","orante":"Hermano/a","canto":"Noche de Paz","video":"3Et2_oTjYPs","pensamiento":"José encontró paz y así obedecer El regalo de paz es para todos y todas.","versos":[{"v":19,"t":"José su marido, como era justo, y no quería infamarla, quiso dejarla secretamente."},{"v":20,"t":"Y pensando él en esto, he aquí un ángel del Señor le apareció en sueños y le dijo: José, hijo de David, no temas recibir a María tu mujer, porque lo que en ella es engendrado, del Espíritu Santo es."}]},{"n":19,"date":"2026-12-17","week":3,"label":"JUEVES 17 DICIEMBRE","tema":"Reconciliación","cita":"Colosenses 1.20","orante":"Hermano/a","canto":"Suenen Dulces Himnos","video":"CdwHqzR5_78","pensamiento":"Dios en Cristo reconcilió todo lo creado. Hoy es día para pedir perdón y perdonar.","versos":[{"v":20,"t":"y por medio de él reconciliar consigo todas las cosas, así las que están en la tierra como las que están en los cielos, haciendo la paz mediante la sangre de su cruz."}]},{"n":20,"date":"2026-12-18","week":3,"label":"VIERNES 18 DICIEMBRE","tema":"Cantar en paz","cita":"Hechos 16.25","orante":"Hermano/a","canto":"El Pesebre","video":"27ebFMGMgJM","pensamiento":"Puedes cantar en medio de la tormenta, porque tu paz no depende de las circunstancias que estamos viviendo, sino de la presencia de Dios.","versos":[{"v":25,"t":"Pero a medianoche, orando Pablo y Silas, cantaban himnos a Dios; y los presos los oían."}]},{"n":21,"date":"2026-12-19","week":3,"label":"SÁBADO 19 DICIEMBRE","tema":"La paz que sobrepasa todo entendimiento","cita":"Filipenses 4.7","orante":"Hermano/a","canto":"Diez Mil Gran Aleluyas","video":"7N7AbT3h2yI","pensamiento":"La paz del creyente no es ausencia de guerras o de problemas, no es decir todo está resuelto. La paz de Cristo nos lleva a enfrentar en la adversidad, encontrando un puerto seguro para descansar.","versos":[{"v":7,"t":"Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos en Cristo Jesús."}]},{"n":22,"date":"2026-12-20","week":4,"label":"DOMINGO 20 DICIEMBRE","tema":"El Emanuel nos ama","cita":"Mateo 1.22-23","orante":"Pastora Edith Molina","canto":"El Es Emmanuel","video":"TbeCg3aO0Hs","pensamiento":"Dios no nos ama a la distancia, Él está cerca de su pueblo. Se hace nuestro vecino. El Dios cercano está con nosotros.","versos":[{"v":22,"t":"Todo esto aconteció para que se cumpliese lo dicho por el Señor por medio del profeta, cuando dijo:"},{"v":23,"t":"He aquí, una virgen concebirá y dará a luz un hijo, Y llamarás su nombre Emanuel, que traducido es: Dios con nosotros."}]},{"n":23,"date":"2026-12-21","week":4,"label":"LUNES 21 DICIEMBRE","tema":"No había lugar, pero hizo lugar","cita":"Lucas 2.4-7","orante":"Pastor Armando Pérez","canto":"Lugar Para Cristo","video":"ru4exFAuWSk","pensamiento":"El amor nos invita hacer un espacio donde no hay. ¿Harás lugar para Cristo hoy?","versos":[{"v":4,"t":"Y José subió de Galilea, de la ciudad de Nazaret, a Judea, a la ciudad de David, que se llama Belén, por cuanto era de la casa y familia de David;"},{"v":5,"t":"para ser empadronado con María su mujer, desposada con él, la cual estaba encinta."},{"v":6,"t":"Y aconteció que estando ellos allí, se cumplieron los días de su alumbramiento."},{"v":7,"t":"Y dio a luz a su hijo primogénito, y lo envolvió en pañales, y lo acostó en un pesebre, porque no había lugar para ellos en el mesón."}]},{"n":24,"date":"2026-12-22","week":4,"label":"MARTES 22 DICIEMBRE","tema":"El Verbo se hizo carne","cita":"Juan 1.12-14","orante":"Hermano/a","canto":"¡Bella noche de amor!","video":"Y080ynFhe-o","pensamiento":"Dios no mandó un mensaje, se hizo mensaje. El Amor de Dios encarnado en Cristo Jesús.","versos":[{"v":12,"t":"Mas a todos los que le recibieron, a los que creen en su nombre, les dio potestad de ser hechos hijos de Dios;"},{"v":13,"t":"los cuales no son engendrados de sangre, ni de voluntad de carne, ni de voluntad de varón, sino de Dios."},{"v":14,"t":"Y aquel Verbo fue hecho carne, y habitó entre nosotros (y vimos su gloria, gloria como del unigénito del Padre), lleno de gracia y de verdad."}]},{"n":25,"date":"2026-12-23","week":4,"label":"MIÉRCOLES 23 DICIEMBRE","tema":"Obediencia por amor","cita":"Filipenses 2.6-8","orante":"Hermano/a","canto":"Nochecita","video":"NkzwN-4avCg","pensamiento":"Amar no es subir, es bajar, así como Cristo de trono a pesebre. Amar es salir de nuestra comodidad.","versos":[{"v":6,"t":"el cual, siendo en forma de Dios, no estimó el ser igual a Dios como cosa a que aferrarse,"},{"v":7,"t":"sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres;"},{"v":8,"t":"y estando en la condición de hombre, se humilló a sí mismo, haciéndose obediente hasta la muerte, y muerte de cruz."}]},{"n":26,"date":"2026-12-24","week":4,"label":"JUEVES 24 DICIEMBRE","tema":"Noche de amor","cita":"Lucas 2.8-14","orante":"Pastora Leticia Rosete","canto":"Santa La Noche","video":"4KWKTZMzClg","pensamiento":"Esta noche no es sólo encender una vela más, es dejar que el fuego del Espíritu encienda nuestra vida para amar como Dios nos ama por medio de Cristo.","versos":[{"v":8,"t":"Había pastores en la misma región, que velaban y guardaban las vigilias de la noche sobre su rebaño."},{"v":9,"t":"Y he aquí, se les presentó un ángel del Señor, y la gloria del Señor los rodeó de resplandor; y tuvieron gran temor."},{"v":10,"t":"Pero el ángel les dijo: No temáis; porque he aquí os doy nuevas de gran gozo, que será para todo el pueblo:"},{"v":11,"t":"que os ha nacido hoy, en la ciudad de David, un Salvador, que es CRISTO el Señor."},{"v":12,"t":"Esto os servirá de señal: Hallaréis al niño envuelto en pañales, acostado en un pesebre."},{"v":13,"t":"Y repentinamente apareció con el ángel una multitud de las huestes celestiales, que alababan a Dios, y decían:"},{"v":14,"t":"¡Gloria a Dios en las alturas,\nY en la tierra paz, buena voluntad para con los hombres!"}]},{"n":27,"date":"2026-12-25","week":5,"label":"VIERNES 25 DICIEMBRE","tema":"La Buena noticia a los pastores ¡Cristo Nació!","cita":"Lucas 2.8-11","orante":"Hermano/a","canto":"Ha nacido","video":"hHIiRvrne1k","pensamiento":"La Buena Noticia es para toda la humanidad. Dios se manifiesta en medio de las circunstancias cotidianas. Recordemos ¡Nuestro Salvador ha nacido!","versos":[{"v":8,"t":"Había pastores en la misma región, que velaban y guardaban las vigilias de la noche sobre su rebaño."},{"v":9,"t":"Y he aquí, se les presentó un ángel del Señor, y la gloria del Señor los rodeó de resplandor; y tuvieron gran temor."},{"v":10,"t":"Pero el ángel les dijo: No temáis; porque he aquí os doy nuevas de gran gozo, que será para todo el pueblo:"},{"v":11,"t":"que os ha nacido hoy, en la ciudad de David, un Salvador, que es CRISTO el Señor."}]},{"n":28,"date":"2026-12-26","week":5,"label":"SÁBADO 26 DICIEMBRE","tema":"La Luz que no se apaga","cita":"Juan 1.5","orante":"Hermano/a","canto":"Navidad Latina","video":"CagkwQTSUIg","pensamiento":"Aun cuando nuestra vida pueda estar rodeada de oscuridad. Confía, nada apagará la luz de Cristo.","versos":[{"v":3,"t":"Todas las cosas por él fueron hechas, y sin él nada de lo que ha sido hecho, fue hecho."},{"v":4,"t":"En él estaba la vida, y la vida era la luz de los hombres."},{"v":5,"t":"La luz en las tinieblas resplandece, y las tinieblas no prevalecieron contra ella."}]},{"n":29,"date":"2026-12-27","week":5,"label":"DOMINGO 27 DICIEMBRE","tema":"Dios migrante","cita":"Mateo 2.13-15","orante":"Pastor Armando Pérez","canto":"Venid, Pastores","video":"5hu5Er9826w","pensamiento":"En medio de un ambiente plagado de violencia y muerte Dios hace preservar la vida. Si tú eres migrante o desplazado, confía: Jesús también recorrió ese camino.","versos":[{"v":13,"t":"Después que partieron ellos, he aquí un ángel del Señor apareció en sueños a José y dijo: Levántate y toma al niño y a su madre, y huye a Egipto, y permanece allá hasta que yo te diga; porque acontecerá que Herodes buscará al niño para matarlo."},{"v":14,"t":"Y él, despertando, tomó de noche al niño y a su madre, y se fue a Egipto,"},{"v":15,"t":"y estuvo allá hasta la muerte de Herodes; para que se cumpliese lo que dijo el Señor por medio del profeta, cuando dijo: De Egipto llamé a mi Hijo."}]},{"n":30,"date":"2026-12-28","week":5,"label":"LUNES 28 DICIEMBRE","tema":"Dios escucha el clamor de los inocentes","cita":"Mateo 2.16-18","orante":"Pastora Leticia Rosete","canto":"En la noche los pastores","video":"Ni27-PWa9R8","pensamiento":"Dios ve el sufrimiento de los niños y niñas y nos llama a actuar. ¿Dónde se necesitan mis manos hoy?","versos":[{"v":16,"t":"Herodes entonces, cuando se vio burlado por los magos, se enojó mucho, y mandó matar a todos los niños menores de dos años que había en Belén y en todos sus alrededores, conforme al tiempo que había inquirido de los magos."},{"v":17,"t":"Entonces se cumplió lo que fue dicho por el profeta Jeremías, cuando dijo:"},{"v":18,"t":"Voz fue oída en Ramá, grande lamentación, lloro y gemido;\nRaquel que llora a sus hijos, y no quiso ser consolada, porque perecieron."}]},{"n":31,"date":"2026-12-29","week":5,"label":"MARTES 29 DICIEMBRE","tema":"Simeón confió hasta el final","cita":"Lucas 2.25-38","orante":"Hermano/a","canto":"Tenemos Esperanza","video":"Nhx4Le7RN9o","pensamiento":"En ocasiones pareciera que Dios no responde a sus promesas. Pero hoy, nos invita a confiar como Simeón.","versos":[{"v":29,"t":"Ahora, Señor, despides a tu siervo en paz, conforme a tu palabra;"},{"v":30,"t":"Porque han visto mis ojos tu salvación,"},{"v":31,"t":"La cual has preparado en presencia de todos los pueblos;"},{"v":32,"t":"Luz para revelación a los gentiles, Y gloria de tu pueblo Israel."}]},{"n":32,"date":"2026-12-30","week":5,"label":"MIÉRCOLES 30 DICIEMBRE","tema":"Dios en lo cotidiano","cita":"Lucas 2.39-40","orante":"Hermano/a","canto":"Allá En El Pesebre","video":"4FQTvH9xvgU","pensamiento":"Confía que Dios obra cuando lavamos trastes, trabajando, estudiando. En todas las actividades de nuestro diario vivir ÉL se hace presente.","versos":[{"v":39,"t":"Después de haber cumplido con todo lo prescrito en la ley del Señor, volvieron a Galilea, a su ciudad de Nazaret."},{"v":40,"t":"Y el niño crecía y se fortalecía, y se llenaba de sabiduría; y la gracia de Dios era sobre él."}]},{"n":33,"date":"2026-12-31","week":5,"label":"JUEVES 31 DICIEMBRE","tema":"Todo lo hace nuevo","cita":"2 Corintios 5.17","orante":"Pastora Edith Molina","canto":"Todos los Días Nace el Señor","video":"aT0ELI5v0WU","pensamiento":"No hay una fórmula mágica para terminar e iniciar un año más. Confiemos en Dios, no sólo cambia el año, Cristo te hace nuevo cada día.","versos":[{"v":17,"t":"De modo que, si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas."}]},{"n":34,"date":"2027-01-01","week":5,"label":"VIERNES 1 ENERO","tema":"Su Nombre es salvación","cita":"Lucas 2.21","orante":"Hermano/a","canto":"Corazón Pesebre","video":"6GP11UPgiJM","pensamiento":"Dios se revela en un pequeño niño indefenso, pero que a su vez es muestra de grandeza. Cristo es nuestro Salvador, tu nombre está escrito en su mano.","versos":[{"v":21,"t":"Cumplidos los ocho días para circuncidar al niño, le pusieron por nombre JESÚS, el cual le había sido puesto por el ángel antes que fuese concebido."}]},{"n":35,"date":"2027-01-02","week":5,"label":"Sábado 2 Enero 2027","tema":"Regresando a casa","cita":"Lucas 2.20","orante":"Hermano/a","canto":"Pastores en Adoración","video":"xmhQi8nOwi0","pensamiento":"Los pastores no se quedaron contemplando el pesebre, regresaron a su hogar. ¿Cómo vamos a regresar a nuestras actividades cotidianas?","versos":[{"v":20,"t":"Y volvieron los pastores glorificando y alabando a Dios por todas las cosas que habían oído y visto, como se les había dicho."}]},{"n":36,"date":"2027-01-03","week":5,"label":"DOMINGO 3 ENERO 2027 EPIFANÍA","tema":"La luz es para todos los seres humanos","cita":"Mateo 2.1-3,9-12","orante":"Pastora Leticia Rosete","canto":"¡Miren la estrella, hay esperanza!","video":"1X3PQP1gJbU","pensamiento":"Confía, la estrella te guía a Cristo. ¡Levántate, adora y vuelve por otro camino!","versos":[{"v":1,"t":"Cuando Jesús nació en Belén de Judea en días del rey Herodes, vinieron del oriente a Jerusalén unos magos,"},{"v":2,"t":"diciendo: ¿Dónde está el rey de los judíos, que ha nacido? Porque su estrella hemos visto en el oriente, y venimos a adorarle."},{"v":3,"t":"Oyendo esto, el rey Herodes se turbó, y toda Jerusalén con él."},{"v":9,"t":"Ellos, habiendo oído al rey, se fueron; y he aquí la estrella que habían visto en el oriente iba delante de ellos, hasta que, llegando, se detuvo sobre donde estaba el niño."},{"v":10,"t":"Y al ver la estrella, se regocijaron con muy grande gozo."},{"v":11,"t":"Y al entrar en la casa, vieron al niño con su madre María, y postrándose, lo adoraron; y abriendo sus tesoros, le ofrecieron presentes: oro, incienso y mirra."},{"v":12,"t":"Pero siendo avisados por revelación en sueños que no volviesen a Herodes, regresaron a su tierra por otro camino."}]}];
+const WEEKS = {
+  1:{name:'Primera semana de Adviento',virtud:'La Esperanza',color:'Verde',deco:'#3f8f4f',txt:'El verde es símbolo de vida, que renace, aun cuando todo parezca seco; así es como Dios hace brotar la esperanza.'},
+  2:{name:'Segunda semana de Adviento',virtud:'La Fe',color:'Morado',deco:'#7a4fb8',txt:'El morado es el color de la realeza y del camino del desierto. Tener fe es creer, es caminar, aunque no veamos el final del camino.'},
+  3:{name:'Tercera semana de Adviento',virtud:'La Paz',color:'Amarillo',deco:'#e8b923',txt:'El amarillo es símbolo de luz, signo del sol que anuncia un nuevo amanecer para la creación entera. La paz de Dios.'},
+  4:{name:'Cuarta semana de Adviento',virtud:'El Amor',color:'Rojo',deco:'#c9363b',txt:'El rojo es símbolo de entrega, de amor, de un corazón que ama hasta el extremo. Así es la forma en que nos ama Dios por medio de su Hijo Jesucristo.'},
+  5:{name:'Navidad y Epifanía',virtud:'La Confianza',color:'Blanco',deco:'#e9e4d6',txt:'El blanco es símbolo de pureza, victoria, confianza plena. Cristo renace todos los días en nuestro corazón.'}
+};
+const DIAS=['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+const MESES=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const parse=iso=>{const [y,m,d]=iso.split('-').map(Number);return new Date(y,m-1,d)};
+const iso=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+const longDate=iso0=>{const d=parse(iso0);const s=DIAS[d.getDay()]+' '+d.getDate()+' de '+MESES[d.getMonth()];return s.charAt(0).toUpperCase()+s.slice(1)+(d.getFullYear()!==2026?' de '+d.getFullYear():'')};
+const shortDate=iso0=>{const d=parse(iso0);return DIAS[d.getDay()].slice(0,3)+' '+d.getDate()+' '+MESES[d.getMonth()].slice(0,3)};
+const store={get(k){try{return localStorage.getItem(k)||''}catch(e){return ''}},set(k,v){try{v?localStorage.setItem(k,v):localStorage.removeItem(k);return true}catch(e){return false}}};
+const todayISO=()=>iso(new Date());
+const first=DATA[0].date,last=DATA[DATA.length-1].date;
+let cur=0;
+
+function indexForToday(){
+  const t=todayISO();
+  if(t<first)return 0; if(t>last)return DATA.length-1;
+  const i=DATA.findIndex(e=>e.date===t); return i<0?0:i;
+}
+function indexFromHash(){
+  const h=location.hash.slice(1); const i=DATA.findIndex(e=>e.date===h); return i;
+}
+
+/* ---- Candles ---- */
+function candles(week){
+  const names=['Esperanza','Fe','Paz','Amor','Confianza'];
+  let s='';
+  for(let i=0;i<5;i++){
+    const w=i+1,x=36+i*72,lit=w<=week,now=w===week,col=WEEKS[w].deco;
+    const stroke=w===5?'#b9b2a0':'rgba(0,0,0,.25)';
+    s+=`<g>`;
+    if(lit)s+=`<circle cx="${x}" cy="46" r="${now?34:26}" fill="#ffb938" opacity="${now?.28:.15}"/>`;
+    s+=`<rect x="${x-13}" y="66" width="26" height="62" rx="4" fill="${col}" stroke="${stroke}" stroke-width="1"/>`;
+    s+=`<rect x="${x-13}" y="66" width="8" height="62" rx="4" fill="#fff" opacity=".18"/>`;
+    s+=`<line x1="${x}" y1="66" x2="${x}" y2="56" stroke="#3a3128" stroke-width="2" stroke-linecap="round"/>`;
+    if(lit)s+=`<path class="flame ${['a','b','c'][i%3]}" d="M${x} 28c9 9 12 17 8 24-2 4-14 4-16 0-4-7-1-15 8-24z" fill="#f6a21a"/><path class="flame ${['b','c','a'][i%3]}" d="M${x} 38c5 5 6 9 4 12-1 2-7 2-8 0-2-3-1-7 4-12z" fill="#fff1b8"/>`;
+    s+=`<text class="lbl${now?' on':''}" x="${x}" y="146">${names[i]}</text></g>`;
+  }
+  $('#candles').innerHTML=s;
+}
+
+/* ---- Entry ---- */
+function render(i,opts={}){
+  cur=i;const e=DATA[i],W=WEEKS[e.week],t=todayISO();
+  document.body.dataset.week=e.week;
+  document.querySelector('meta[name=theme-color]').content=getComputedStyle(document.body).getPropertyValue('--tint').trim()||'#faf7f1';
+  candles(e.week);
+  let banner='';
+  if(t<first){const n=Math.round((parse(first)-parse(t))/864e5);banner=`<div class="banner"><strong>El diario comienza ${n===1?'mañana':'en '+n+' días'}</strong> (domingo 29 de noviembre). Mientras tanto puedes leer el primer día y recorrer todo el calendario.</div>`}
+  else if(t>last){banner=`<div class="banner"><strong>Gracias por caminar juntos.</strong> El diario terminó el 3 de enero, pero puedes volver a leer cualquier día.</div>`}
+  const verses=e.versos.map(v=>(v.v!=null?`<sup>${v.v}</sup>`:'')+esc(v.t)).join(' ');
+  const k1='diario26:'+e.date+':q1',k2='diario26:'+e.date+':q2';
+  const prev=DATA[i-1],next=DATA[i+1];
+  $('#entry-root').innerHTML=`${banner}
+  <article class="entry" aria-labelledby="eh">
+    <div class="entry-head">
+      <div class="meta"><span class="chip"><i></i>${esc(W.name)} · ${esc(W.virtud)}</span>${e.date===t?'<span class="today-pill">Hoy</span>':''}<span>Día ${e.n} de ${DATA.length}</span></div>
+      <h2 id="eh">${esc(e.tema)}</h2>
+      <p class="daydate">${longDate(e.date)}</p>
+    </div>
+
+    <div class="block">
+      <p class="label">Texto bíblico</p>
+      <p class="verse">${verses}</p>
+      <cite class="cite">${esc(e.cita||'')} <span>· Reina-Valera 1960</span></cite>
+    </div>
+
+    <div class="block">
+      <p class="label">Dirige la oración</p>
+      <p class="orante"><span class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v6M9 6h6"/><path d="M5 21v-5a7 7 0 0 1 14 0v5"/></svg></span><span><small>Hoy ora</small><b>${esc(e.orante)}</b></span></p>
+    </div>
+
+    <div class="block">
+      <p class="label">Pensamiento de hoy</p>
+      <blockquote class="thought">${esc(e.pensamiento)}</blockquote>
+    </div>
+
+    <div class="block">
+      <p class="label">Reflexiona</p>
+      <p class="note"><span>Escribe en tu cuaderno o aquí mismo.</span><span class="saved" id="saved" aria-live="polite"></span></p>
+      <div class="q"><label for="q1"><span>1</span>¿Qué te dice el texto?</label><textarea id="q1" data-k="${k1}"></textarea></div>
+      <div class="q"><label for="q2"><span>2</span>¿Qué acción tienes que hacer hoy?</label><textarea id="q2" data-k="${k2}"></textarea></div>
+    </div>
+
+    <div class="block">
+      <p class="label">Canto</p>
+      <div class="song">
+        <h3>${esc(e.canto)}</h3>
+        <button class="btn" id="play" type="button">▶ Escuchar aquí</button>
+        <a class="btn ghost" href="https://youtu.be/${esc(e.video)}" target="_blank" rel="noopener">Abrir en YouTube</a>
+      </div>
+      <div id="player"></div>
+    </div>
+
+    <div class="entry-foot">
+      <div class="grp">
+        ${prev?`<a class="btn ghost" href="#${prev.date}" rel="prev">← ${esc(shortDate(prev.date))}</a>`:''}
+        ${next?`<a class="btn" href="#${next.date}" rel="next">${esc(shortDate(next.date))} →</a>`:''}
+      </div>
+      <button class="btn ghost" id="share" type="button">Compartir este día</button>
+    </div>
+  </article>`;
+  // journal
+  ['q1','q2'].forEach(id=>{const ta=$('#'+id);ta.value=store.get(ta.dataset.k);let tm;
+    ta.addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(()=>{const ok=store.set(ta.dataset.k,ta.value.trim()?ta.value:'');$('#saved').textContent=ok?'Guardado en este dispositivo':'No se pudo guardar';setTimeout(()=>{const s=$('#saved');if(s)s.textContent=''},2000)},500)})});
+  $('#play').addEventListener('click',ev=>{
+    $('#player').innerHTML=`<iframe class="player" src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(e.video)}?rel=0&autoplay=1" title="${esc(e.canto)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe>`;
+    ev.currentTarget.remove()});
+  $('#share').addEventListener('click',async()=>{
+    const url=location.href.split('#')[0]+'#'+e.date;
+    try{if(navigator.share){await navigator.share({title:'Diario de Adviento · '+e.tema,text:longDate(e.date)+': '+e.tema,url});return}}catch(err){if(err&&err.name==='AbortError')return}
+    try{await navigator.clipboard.writeText(url);toast('Enlace copiado')}catch(err){prompt('Copia este enlace:',url)}
+  });
+  markCards();
+  if(opts.scroll){const r=$('#entry-root');window.scrollTo({top:r.getBoundingClientRect().top+scrollY-12})}
+}
+
+/* ---- Calendar ---- */
+function buildCalendar(){
+  let h='';
+  for(let w=1;w<=5;w++){
+    const days=DATA.filter(e=>e.week===w),W=WEEKS[w];
+    h+=`<div><div class="week-h"><span class="dot" style="background:${W.deco}"></span><h3>${esc(W.name)} · ${esc(W.virtud)}</h3><p>${esc(W.txt)}</p></div><div class="cards">`+
+      days.map(e=>`<a class="card" href="#${e.date}" data-d="${e.date}"><div class="d">${esc(shortDate(e.date))}</div><div class="t">${esc(e.tema)}</div><div class="c">${esc(e.cita||'')}</div></a>`).join('')+`</div></div>`;
+  }
+  $('#weeks').innerHTML=h;
+  $('#colors').innerHTML=Object.values(WEEKS).map(W=>`<li><span class="dot" style="background:${W.deco}"></span><span><b>${esc(W.color)} · ${esc(W.virtud)}.</b> ${esc(W.txt)}</span></li>`).join('');
+}
+function markCards(){
+  const t=todayISO();
+  document.querySelectorAll('.card').forEach(c=>{const d=c.dataset.d;c.classList.toggle('now',d===t);c.classList.toggle('done',d<t);c.classList.toggle('sel',d===DATA[cur].date);c.setAttribute('aria-current',d===DATA[cur].date?'page':'false')});
+}
+
+/* ---- Misc ---- */
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');setTimeout(()=>t.classList.remove('on'),2200)}
+$('#export').addEventListener('click',()=>{
+  let out='MI DIARIO DE ADVIENTO, NAVIDAD Y EPIFANÍA 2026\n\n',n=0;
+  DATA.forEach(e=>{const a=store.get('diario26:'+e.date+':q1'),b=store.get('diario26:'+e.date+':q2');
+    if(a||b){n++;out+=`${longDate(e.date)} — ${e.tema} (${e.cita||''})\n¿Qué te dice el texto?\n${a||'—'}\n¿Qué acción tienes que hacer hoy?\n${b||'—'}\n\n----------------------------------------\n\n`}});
+  if(!n){toast('Aún no has escrito notas');return}
+  const url=URL.createObjectURL(new Blob([out],{type:'text/plain;charset=utf-8'}));
+  const a=document.createElement('a');a.href=url;a.download='mi-diario-de-adviento-2026.txt';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+});
+document.querySelectorAll('[data-scroll]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();document.getElementById(a.dataset.scroll).scrollIntoView({behavior:'smooth'})}));
+$('#goToday').addEventListener('click',ev=>{ev.preventDefault();const i=indexForToday();history.replaceState(null,'','#'+DATA[i].date);render(i,{scroll:true})});
+window.addEventListener('hashchange',()=>{const i=indexFromHash();if(i>=0&&i!==cur)render(i,{scroll:true})});
+
+buildCalendar();
+const h0=indexFromHash();
+render(h0>=0?h0:indexForToday());
+</script>
+</body>
+</html>
